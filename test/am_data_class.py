@@ -1,4 +1,4 @@
-from hammer_data.PhysicalDataInterface import PhysicalDataInterface, MeshDataClass, GraphDataClass, VoxelDataClass
+from hammer_data import MeshDataClass, GraphDataClass, VoxelDataClass
 
 import pickle
 import meshio

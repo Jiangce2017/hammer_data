@@ -4,7 +4,7 @@ import meshio
 import numpy as np
 import numpy.linalg as LA
 import torch
-from PhysicalDataInterface import PhysicalDataInterface, MeshDataClass, GraphDataClass, VoxelDataClass
+from hammer_data import PhysicalDataInterface, MeshDataClass, GraphDataClass, VoxelDataClass
 from am_data_class import AMMesh, AMVoxel, AMGraph
 
 mesh = AMMesh()
